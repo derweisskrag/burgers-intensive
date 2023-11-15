@@ -1,0 +1,59 @@
+.nav{
+	max-width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.nav .menuList{
+	display: flex;
+	align-items: center;
+}
+
+.logo > {
+	vertical-align: bottom;
+}
+
+.menu{
+	margin-left: 191px;
+}
+
+.menuList{
+	list-style: none;
+	display: flex;
+}
+
+.menuItem{
+	margin-right: 88px;
+}
+
+.menuItem > * {
+	color: white;
+	font-size: 18px;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.menuItem > *:hover{
+	border-bottom: 2px solid white;
+}
+
+.currency{
+	border: 1px solid white;
+	border-radius: 5px;
+	aspect-ratio: 1 / 1;
+	width: 45px;
+	text-align: center;
+	cursor: pointer;
+
+	
+
+	font-size: 18px;
+	user-select: none;
+
+	margin-left: auto;
+	padding: 11px;
+
+	box-sizing: border-box;
+}
